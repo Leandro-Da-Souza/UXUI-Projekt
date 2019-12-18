@@ -1,0 +1,58 @@
+App: Labyrintjakten 
+- Ett spel som går ut på att jaga dina vänner i en labyrint. 
+
+<Målgrupp>
+Pop-kultur intresserade kontorsarbetare med medel till god ekonomi. 
+Bor i centrala stockholm, jobbar med flexibelt schema men har inte mycket tid till personliga intressen, så värderar sin fritid högt. 
+</Målgrupp>
+
+
+<Personas>
+* Persona 1
+Namn: Jakob
+Ålder: 28
+Uppvuxen i Kalmar, flyttade till Stockholm under gymnasieåren och studerade Media. 
+Yrke: Skribent för online popkultur tidningen "Entertain Me Now". 
+Drivers: Karriär, Pengar.
+Barriers: Imposter-Syndrom. 
+
+Jakob drömmer om att jobba sig uppåt inom nöjesjournalistik branschen som en skribent. Tror att folk ser ner på honom för att han inte kommer från storstaden som de flesta inom hans yrke. Försöker alltid göra sitt bästa men kan aldrig uppskatta sitt eget hårda arbete då han känner att han alltid kunnat göra bättre. För att kunna koppla av så spelar han tv-spel, men jobbet gör att han har minimalt med tid att lägga ned på det. 
+
+* Persona 2
+Namn: Linn 
+Ålder: 31
+Uppvuxen och bor i Stockholm. 
+Yrke: Projekt Manager / Event Planner.
+Drivers: Karriär, makt, pengar. 
+Barriers: Press från chefer, rädsla för karriär stagnering, höga krav på sig själv och andra. 
+
+Linn drömmer om att få en chefsroll inom företaget hon jobbar på. Hon är uppskattad för sitt arbete och vet att hon gör ett bra jobb, men är rädd för att hon inte kommer få en chans att komma uppåt i sin karriär. Hon sätter höga krav på sig själv och sina kollegor, jobbar inpå sena timmar, är inte rädd för att adressera problem med kollegor om hon känner att de inte håller måttet. För att koppla av tränar hon, men har blivit rådgiven att även finna alternativa medel för minska risk för utbrändhet. 
+
+</Personas>
+
+<App-Info>
+Titel: Daedalus
+
+Objektiv: I auto-genererade labyrinter finna sin väg ut, samtidigt som en minotaur jagar en. 
+
+Funktioner: Ska fungera som en dungeon crawler där man utöver försöker finna sin väg ut även finner utrustning och redskap som hjälper en t.ex. karta, vapen, "armor". Ska inte finnas möjligheter att välja ens utrustning eller vapen, detta för att minimera den kognitiva lastem. Utöver minotauren finns det småfiender, tex fladdermös och ormar som attackerar en men delar ut minimal skada. 
+Minotauren delar ut mer skada och kan ej besegras, bara temporärt immobiliseras. 
+
+Generell Spel-Info: Spelet ska inte vara allför komplext, man spelar spelet i landskapsvy, det ska på skärmen dyka upp riktningsknappar till vänster om skärmen och till höger en x-knapp för att dela ut slag och en y-knapp som gör att man temporärt springer snabbare. när man håller in y knappen dyker en liten barometer upp över karaktären som visar ens stamina, finns även en barometer som indikerar ens hälsa. ska även finnas en mindre knapp i mitten av dessa som tar upp start menyn som även fungerar som en pausknapp. Man ska dra sig till minnet ett game-boy. Labyrinterna ska vara autogenererade med hjälp av en algoritm som gör att man alltid för en ny labyrint att spela i, så att det alltid ska finnas en känsla av "excitement".
+Som spelaren tar man sig igenom små till medelstora passager där man ibland kommer till ett rum där man ibland kan välja riktning. i dessa rum finner man sitt vapen, kartan och guldmynt. när man funnit kartan dyker det till vänster längst upp på skärmen en liten kartvy där man kan se åt vilken riktning man ska till för att komma ut ur labyrinten. Minotauren träder då in i spelet för att börja jaga en. Spelaren är alltid snabbare när y knapp är i hållen, när ens stamina är slut ökar minotauren i fart. Man kan välja att slåss med minotauren men man kan inte besegra denna, bara tillfälligt immobilisera, och denna kan ta stor del av ens hälsa. När man funnit utgången vinner man spelet.
+Med sina guldmynt kan man utmana kompisar där man kan anta rollen som hjälte eller minotaur. Spelet ska fungera som ett enkelt rpg fast utan alla valmöjligheter som kan ingå i ett sådan. insperation kommer från spel som binding of isaac och zelda. 
+
+Miljö: Trots att man befinner sig i en labyrint så ska det ändå vara ett någolunda linjärt gameplay, det ska alltid finnas en känsla av progression, för att uppnå detta är det tänkt att rummen där man kan välja riktning ska fungera som save points, när man väl kommit till ett rum så ska man inte kunna gå tillbaka. Anledningen till detta är för att en för stor valmöjlighet som en labyrint i grunden erbjuder kan leda till mycket backtracking om man kommit fel, vilket ökar den kognitiva lasten, irritation och kan leda till spelare hellre stänger av än att fortsätta. 
+
+Color Theory: Tanken här är att använda en complementary color pallete för logan, enligt färgteori så fångar en sådan pallete en potentiel kunds uppmärksamhet bäst. sedan för interfacet en analogus color pallete, detta enligt färgteori ska ge en kund en harmonisk känsla och ska fungera bra för interfacer överlag. 
+En ide för interface och spelbakgrund är denna pallete: 
+https://colorhunt.co/palette/162867
+Speciellt de mörka blåa tonerna för labyrinten i helhet sedan använda sig de andra för betoningar här och där. 
+
+Typography: En old-style serif font för titlen för spelet "Daedalus", och sedan en grotesque sans-serif font för all kropptext. Anledningen till att använda serif font här är för att väcka en känsla av någonting "ancient" vilket passar bra då labyrinten och minotauren och namnet "Daedalus" är kopplade till grekisk mytologi. Anledningen för att använda sans-serif font för kroppen är för att det kan se tråkigt ut att enbart använda serif fonter, men här är tanken att använda en grotesque sans serif font, då dessa font-typer är de äldsta inom sans serif familjen, för att fortsätta på "ancient" temat. 
+</App-Info>
+
+
+<Changes>
+Ändrade titel till Maze Runner under utvecklingens gång då det känns som ett lättare namn att komma ihåg. 
+</Changes>
